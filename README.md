@@ -86,8 +86,8 @@ Este script debe ser utilizado únicamente con fines éticos y en entornos donde
 
 📧 **Contacto**  
 Si tienes preguntas o sugerencias:  
-- 👥 Contacta a [s4v1tar](https://github.com/s4v1tar).  
+- 👥 Contacta a [s4v1tar](https://github.com/s4vitar).  
 - 🐾 Gato, adaptaciones personalizadas.  
 
 🌐 **Repositorio oficial**  
-[EvilTrust GitHub](https://github.com/s4v1tar/EvilTrust)
+[EvilTrust GitHub](https://github.com/s4vitar/evilTrust)
