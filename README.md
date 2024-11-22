@@ -84,10 +84,6 @@ El script es ideal para:
 
 Este script debe ser utilizado únicamente con fines éticos y en entornos donde tengas autorización explícita.  
 
-🛠️ **Colaboradores**  
-- 👤 s4v1tar  
-- 🐾 Gato  
-
 📧 **Contacto**  
 Si tienes preguntas o sugerencias:  
 - 👥 Contacta a [s4v1tar](https://github.com/s4v1tar).  
