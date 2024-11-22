@@ -1,48 +1,32 @@
-﻿![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/Instalador-de-Paqueterias/blob/main/Imagenes/Instalador-de-Paqueterias.png)
+﻿![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/evilTrust/blob/master/images/inicio.png)
 
-# 🕵️‍♂️ EvilTrust by s4v1tar - Custom README
+# EvilTrust by s4v1tar :octocat: 
 
-ℹ️ **Descripción**  
-EvilTrust es un script avanzado de Bash diseñado para convertir un dispositivo Linux en un punto de acceso malicioso (*rogue AP*), ideal para pruebas de penetración y auditorías de seguridad WiFi. Este script permite capturar credenciales, interceptar tráfico, y realizar ataques de ingeniería social mediante la creación de redes falsas y portales cautivos.  
+## :information_source: Descripción 
+🕵️‍♂️ EvilTrust es un script avanzado de Bash diseñado para convertir un dispositivo Linux en un punto de acceso malicioso (*rogue AP*), ideal para pruebas de penetración y auditorías de seguridad WiFi. Este script permite capturar credenciales, interceptar tráfico, y realizar ataques de ingeniería social mediante la creación de redes falsas y portales cautivos.  
 
-💻 **Instalación**  
-Clona el repositorio y prepara el entorno:  
+## :computer: Instalación
 ```bash
-git clone https://github.com/s4v1tar/EvilTrust.git
+cd Desktop
+sudo git clone https://github.com/s4v1tar/EvilTrust.git
 cd EvilTrust
 sudo chmod +x eviltrust.sh
-sudo ./eviltrust.sh
+sudo apt-get install -y hostapd
+sudo apt-get install -y dnsmasq
 ```
 
-🚀 **Modo de Uso**  
+## :rocket: Modo de Uso
+  
 Al ejecutar el script, selecciona entre los diversos modos de ataque disponibles, como:  
 - Crear un *Rogue AP* con portal cautivo.  
 - Configurar sniffing de tráfico HTTP/HTTPS.  
 - Simular redes WiFi conocidas para engañar dispositivos cercanos.  
 
-Ejemplo de ejecución:  
+Ejecute el script simplemente ejecuta el siguiente comando `kptools`  en tu terminal y presiona Enter.
 ```bash
-sudo ./eviltrust.sh
+sudo su
+./eviltrust.sh -m terminal
 ```
-
-🔑 **Requisitos**  
-- **Sistema Operativo**: Linux (Kali Linux, Raspberry Pi OS, etc.)  
-- **Hardware**: Tarjeta WiFi compatible con modo monitor y AP.  
-- **Dependencias**:  
-  - `hostapd`  
-  - `dnsmasq`  
-  - `iptables`  
-
-📑 **Notas adicionales**  
-El script es ideal para:  
-- Auditorías de seguridad en redes WiFi.  
-- Simulación de ataques de ingeniería social.  
-- Captura de tráfico en entornos controlados.  
-
-⚠️ **Importante**  
-Este script debe ser utilizado únicamente con fines éticos y en entornos donde tengas autorización explícita.  
-
----
 
 # 🛠️ Demos y Ejemplos
 
@@ -62,12 +46,32 @@ Desautenticación y redirección a una red falsa.
 
 > 🌐 **Nota**: Sustituye los enlaces `https://your-demo-link.com` por URLs reales donde tengas alojadas las capturas o ejemplos.
 
----
 
-🌟 **Características**  
+## :bookmark_tabs: Notas
+  
+El script es ideal para:  
+- Auditorías de seguridad en redes WiFi.  
+- Simulación de ataques de ingeniería social.  
+- Captura de tráfico en entornos controlados.  
+
+## :star2: Características 
+
 - Automatización total para pruebas de seguridad WiFi.  
 - Soporte para múltiples modos de ataque.  
 - Herramienta liviana y personalizable.  
+
+## :hammer_and_wrench: Requisitos
+ 
+- **Sistema Operativo**: Linux (Kali Linux, Raspberry Pi OS, etc.)  
+- **Hardware**: Tarjeta WiFi compatible con modo monitor y AP.  
+- **Dependencias**:  
+  - `hostapd`  
+  - `dnsmasq`  
+  - `iptables`  
+
+⚠️ **Importante**  
+
+Este script debe ser utilizado únicamente con fines éticos y en entornos donde tengas autorización explícita.  
 
 🛠️ **Colaboradores**  
 - 👤 s4v1tar  
