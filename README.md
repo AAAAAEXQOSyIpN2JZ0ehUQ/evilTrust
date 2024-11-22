@@ -57,7 +57,6 @@ Desautenticación y redirección a una red falsa.
 
 > 🌐 **Nota**: Sustituye los enlaces `https://your-demo-link.com` por URLs reales donde tengas alojadas las capturas o ejemplos.
 
-
 ## :bookmark_tabs: Notas
   
 El script es ideal para:  
@@ -86,8 +85,8 @@ Este script debe ser utilizado únicamente con fines éticos y en entornos donde
 
 📧 **Contacto**  
 Si tienes preguntas o sugerencias:  
-- 👥 Contacta a [s4v1tar](https://github.com/s4vitar).  
+- 👥 Contacta a ![s4v1tar](https://github.com/s4vitar).  
 - 🐾 Gato, adaptaciones personalizadas.  
 
 🌐 **Repositorio oficial**  
-[EvilTrust GitHub](https://github.com/s4vitar/evilTrust)
+![EvilTrust GitHub](https://github.com/s4vitar/evilTrust)
