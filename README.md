@@ -28,7 +28,6 @@ sudo chmod +x eviltrust.sh
   
 Al ejecutar el script, selecciona entre los diversos modos de ataque disponibles, como:  
 - Crear un *Rogue AP* con portal cautivo.  
-- Configurar sniffing de tráfico HTTP/HTTPS.  
 - Simular redes WiFi conocidas para engañar dispositivos cercanos.  
 
 Ejecute el script simplemente ejecuta el siguiente comando `eviltrust`  en tu terminal y presiona Enter.
@@ -47,15 +46,11 @@ Aquí tienes algunos ejemplos de uso del script EvilTrust en acción:
 Captura de credenciales mediante un entorno controlado.  
 ![Youtube Tech_Support404 - Portal Cautivo ](https://www.youtube.com/watch?v=SKeUYUkR0U4)  
 
-### 2️⃣ **Sniffing de tráfico HTTP/HTTPS**  
-Interceptación de tráfico para auditorías en tiempo real.  
-![Demo 2 - Sniffing Tráfico](https://your-demo-link.com/demo2.png)  
-
-### 3️⃣ **Simulación de redes WiFi conocidas**  
+### 2️⃣ **Simulación de redes WiFi conocidas**  
 Desautenticación y redirección a una red falsa.  
-![Demo 3 - Redes Simuladas](https://your-demo-link.com/demo3.png)  
+![Facebook - s4vitar]https://www.facebook.com/zerosecinfo/videos/eviltrust-herramienta-ofensiva/2445107195742419/)  
 
-> 🌐 **Nota**: Sustituye los enlaces `https://your-demo-link.com` por URLs reales donde tengas alojadas las capturas o ejemplos.
+> 🌐 **Nota**: Este script debe ser utilizado únicamente con fines éticos y en entornos donde tengas autorización explícita.
 
 ## :bookmark_tabs: Notas
   
