@@ -23,9 +23,11 @@ Al ejecutar el script, selecciona entre los diversos modos de ataque disponibles
 - Configurar sniffing de tráfico HTTP/HTTPS.  
 - Simular redes WiFi conocidas para engañar dispositivos cercanos.  
 
-Ejecute el script simplemente ejecuta el siguiente comando `kptools`  en tu terminal y presiona Enter.
+Ejecute el script simplemente ejecuta el siguiente comando `eviltrust`  en tu terminal y presiona Enter.
 ```bash
 sudo su
+```
+```bash
 ./eviltrust.sh -m terminal
 ```
 
