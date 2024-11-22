@@ -7,12 +7,13 @@ EvilTrust 🕵️‍♂️ es un script avanzado de Bash diseñado para converti
 
 ## :computer: Instalación
 ```bash
+cd
+sudo apt-get install -y hostapd
+sudo apt-get install -y dnsmasq
 cd Desktop
 sudo git clone https://github.com/s4v1tar/EvilTrust.git
 cd EvilTrust
 sudo chmod +x eviltrust.sh
-sudo apt-get install -y hostapd
-sudo apt-get install -y dnsmasq
 ```
 
 ## :rocket: Modo de Uso
