@@ -1,131 +1,81 @@
-# evilTrust
 
-<p align="center">
-<img src="images/evil.png"
-	alt="Evil logo"
-	width="200"
-	style="float: left; margin-right: 10px;" />
-</p>
+# ?????? EvilTrust by s4v1tar - Custom README
 
-Herramienta ideal para el despliegue automatizado de un **Rogue AP** con capacidad de selecci√≥n de plantilla + 2FA.
+?? **DescripciÛn**  
+EvilTrust es un script avanzado de Bash diseÒado para convertir un dispositivo Linux en un punto de acceso malicioso (*rogue AP*), ideal para pruebas de penetraciÛn y auditorÌas de seguridad WiFi. Este script permite capturar credenciales, interceptar tr·fico, y realizar ataques de ingenierÌa social mediante la creaciÛn de redes falsas y portales cautivos.  
 
-Esta herramienta dispone de varias plantillas a utilizar, incluyendo una opci√≥n de plantilla personalizada, donde el atacante es capaz de desplegar su propia plantilla.
+?? **InstalaciÛn**  
+Clona el repositorio y prepara el entorno:  
+```bash
+git clone https://github.com/s4v1tar/EvilTrust.git
+cd EvilTrust
+sudo chmod +x eviltrust.sh
+sudo ./eviltrust.sh
+```
 
-**IMPORTANTE**: No es necesario contar con una conexi√≥n cableada, por lo que es posible desplegar el ataque desde cualquier lado en cualquier momento.
+?? **Modo de Uso**  
+Al ejecutar el script, selecciona entre los diversos modos de ataque disponibles, como:  
+- Crear un *Rogue AP* con portal cautivo.  
+- Configurar sniffing de tr·fico HTTP/HTTPS.  
+- Simular redes WiFi conocidas para engaÒar dispositivos cercanos.  
 
-**¬°AHORA LA HERRAMIENTA CUENTA CON INTERFAZ GR√ÅFICA!**
+Ejemplo de ejecuciÛn:  
+```bash
+sudo ./eviltrust.sh
+```
 
-¬øC√≥mo funciona?
-======
-La herramienta comienza haciendo una comprobaci√≥n de las utilidades necesarias para desplegar el ataque:
+?? **Requisitos**  
+- **Sistema Operativo**: Linux (Kali Linux, Raspberry Pi OS, etc.)  
+- **Hardware**: Tarjeta WiFi compatible con modo monitor y AP.  
+- **Dependencias**:  
+  - `hostapd`  
+  - `dnsmasq`  
+  - `iptables`  
 
-<p align="center">
-<img src="images/inicio.png"
-        alt="Evil logo"
-        style="float: left; margin-right: 10px;" />
-</p>
+?? **Notas adicionales**  
+El script es ideal para:  
+- AuditorÌas de seguridad en redes WiFi.  
+- SimulaciÛn de ataques de ingenierÌa social.  
+- Captura de tr·fico en entornos controlados.  
 
-Una vez pasada la verificaci√≥n, se listan las interfaces de red disponibles, siendo necesario en este punto seleccionar la interfaz configurada en modo monitor (se configura de manera autom√°tica):
+?? **Importante**  
+Este script debe ser utilizado ˙nicamente con fines Èticos y en entornos donde tengas autorizaciÛn explÌcita.  
 
-<p align="center">
-<img src="images/interfaces.png"
-        alt="Evil logo"
-        style="float: left; margin-right: 10px;" />
-</p>
+---
 
-Tras seleccionar la interfaz en modo monitor, ser√° necesario especificar el nombre del punto de acceso que se desee crear as√≠ como el canal en el que se desea que opere. Una vez especificado, se configurar√° la interfaz en modo monitor para que opere como router, asignado como puerta de enlace predeterminada la direcci√≥n IP **192.168.1.1**, actuando en modo **DHCP**.
+# ??? Demos y Ejemplos
 
-<p align="center">
-<img src="images/config.png"
-        alt="Evil logo"
-        style="float: left; margin-right: 10px;" />
-</p>
+AquÌ tienes algunos ejemplos de uso del script EvilTrust en acciÛn:  
 
-En este punto ser√° necesario especificar la plantilla con la que se desea trabajar. Es importante seleccionar una de las plantillas listadas como ejemplo, especificando su nombre tal y como se muestra a continuaci√≥n:
+### 1?? **ConfiguraciÛn de un Rogue AP con portal cautivo falso**  
+Captura de credenciales mediante un entorno controlado.  
+![Demo 1 - Portal Cautivo](https://your-demo-link.com/demo1.png)  
 
-<p align="center">
-<img src="images/plantilla_000.png"
-        alt="Evil logo"
-        style="float: left; margin-right: 10px;" />
-</p>
+### 2?? **Sniffing de tr·fico HTTP/HTTPS**  
+InterceptaciÛn de tr·fico para auditorÌas en tiempo real.  
+![Demo 2 - Sniffing Tr·fico](https://your-demo-link.com/demo2.png)  
 
-**IMPORTANTE**: Para fijar tu propia plantilla, simplemente crea un directorio en el directorio principal del proyecto y especifica su nombre, la herramienta de manera autom√°tica montar√° el servidor web en dicho directorio. La plantilla cliqq-payload dispone de un APK malicioso, ideal para obtener una sesi√≥n Meterpreter una vez la v√≠ctima la descargue y la ejecute.
+### 3?? **SimulaciÛn de redes WiFi conocidas**  
+DesautenticaciÛn y redirecciÛn a una red falsa.  
+![Demo 3 - Redes Simuladas](https://your-demo-link.com/demo3.png)  
 
-**ANOTACI√ìN**: La plantilla 'all_in_one' crea una portal cautivo centralizado para iniciar sesi√≥n listando todas las redes sociales.
+> ?? **Nota**: Sustituye los enlaces `https://your-demo-link.com` por URLs reales donde tengas alojadas las capturas o ejemplos.
 
-Ya en este punto, se montar√° el punto de acceso y se dispondr√° una ventana a la espera de obtener credenciales:
+---
 
-<p align="center">
-<img src="images/wait.png"
-        alt="Evil logo"
-        style="float: left; margin-right: 10px;" />
-</p>
+?? **CaracterÌsticas**  
+- AutomatizaciÛn total para pruebas de seguridad WiFi.  
+- Soporte para m˙ltiples modos de ataque.  
+- Herramienta liviana y personalizable.  
 
-Desde el lado de la v√≠ctima, se podr√° visualizar el punto de acceso creado. La v√≠ctima se conectar√° al AP (pues todos somos yonkis del WiFi :P) y recibir√° el siguiente aviso:
+??? **Colaboradores**  
+- ?? s4v1tar  
+- ?? Gato  
 
-<p align="center">
-<img src="images/aps.jpg"
-        alt="Evil logo"
-        style="float: left; margin-right: 10px;" />
-</p>
+?? **Contacto**  
+Si tienes preguntas o sugerencias:  
+- ?? Contacta a [s4v1tar](https://github.com/s4v1tar).  
+- ?? Gato, adaptaciones personalizadas.  
 
-De manera autom√°tica, se abrir√° el navegador mostrando la plantilla web configurada en la fase de selecci√≥n:
-
-<p align="center">
-<img src="images/plantilla.jpg"
-        alt="Evil logo"
-        style="float: left; margin-right: 10px;" />
-</p>
-
-La v√≠ctima introducir√° sus credenciales, pues ve que para continuar navegando es necesario autenticarse bajo la plataforma seleccionada:
-
-<p align="center">
-<img src="images/iniciosesion.jpg"
-        alt="Evil logo"
-        style="float: left; margin-right: 10px;" />
-</p>
-
-Una vez introducidas las credenciales, el atacante dispone de sus credenciales:
-
-<p align="center">
-<img src="images/first_step_000.png"
-        alt="Evil logo"
-        style="float: left; margin-right: 10px;" />
-</p>
-
-
-Para no quedarnos cortos, en caso de que la v√≠ctima disponga de segundo factor de autenticaci√≥n configurado, tras introducir sus credenciales, la v√≠ctima es redirigida al siguiente portal web:
-
-<p align="center">
-<img src="images/sms.jpg"
-        alt="Evil logo"
-        style="float: left; margin-right: 10px;" />
-</p>
-
-¬øPor qu√©?, por lo siguiente. Dado que nosotros como atacantes disponemos de las credenciales de la v√≠ctima, de manera inmediata ya estaremos validando sus credenciales desde nuestro navegador. Si la v√≠ctima utiliza segundo factor de autenticaci√≥n, tras iniciar sesi√≥n, nos saltar√° el aviso de que es necesario enviar un SMS al dispositivo m√≥vil o correo electr√≥nico para iniciar sesi√≥n.
-
-¬øQue la v√≠ctima no utiliza segundo factor de autenticaci√≥n?, no pasa nada, ya tenemos sus credenciales :)
-
-Como esta comprobaci√≥n puede realizarse manualmente casi de manera inmediata, la v√≠ctima quedar√° a la espera de ese SMS. Por tanto, tras iniciar sesi√≥n de nuestro lado y enviar el SMS a la v√≠ctima, la v√≠ctima introduce el SMS recibido en su dispositivo:
-
-<p align="center">
-<img src="images/sms_code.jpg"
-        alt="Evil logo"
-        style="float: left; margin-right: 10px;" />
-</p>
-
-Y el atacante ahora, dispone del SMS necesario para acceder a su cuenta en ese intento de inicio de sesi√≥n:
-
-<p align="center">
-<img src="images/second_step.png"
-        alt="Evil logo"
-        style="float: left; margin-right: 10px;" />
-</p>
-
-Dado que son m√∫ltiples plantillas, todos los datos recibidos est√°n distinguidos por etiquetas que relacionan al portal que se est√° usando.
-
-Requisitos
-======
-Para el correcto despliegue del atacante, simplemente es necesario contar con una tarjeta de red que acepte el modo monitor. El modo monitor se configura de manera automatizada tras la ejecuci√≥n de la herramienta.
-
-Al presionar la combinaci√≥n Ctrl+C en cualquier momento, la interfaz de red volver√° a su estado normal y todos los archivos temporales creados ser√°n borrados.
+?? **Repositorio oficial**  
+[EvilTrust GitHub](https://github.com/s4v1tar/EvilTrust)
