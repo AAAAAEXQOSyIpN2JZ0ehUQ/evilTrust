@@ -75,9 +75,31 @@ El script es ideal para:
   - `dnsmasq`  
   - `iptables`  
 
-⚠️ **Importante**  
+## 📂 Estructura del Repositorio
 
-Este script debe ser utilizado únicamente con fines éticos y en entornos donde tengas autorización explícita.  
+| Icono            | Nombre              | Descripción                               |
+|------------------|---------------------|-------------------------------------------|
+| :file_folder:    | all_in_one          | Plantilla Todo en Uno y mejoras generales. |
+| :file_folder:    | cliqq-payload       | Plantilla para payload APK malicioso.     |
+| :file_folder:    | facebook-login      | Plantilla de Facebook con 2FA operativo. |
+| :file_folder:    | google-login        | Segundo factor de autenticación para Google. |
+| :file_folder:    | images              | Modificaciones e imágenes del proyecto.   |
+| :file_folder:    | optimumwifi         | Plantillas de redes de optimumwifi.       |
+| :file_folder:    | starbucks-login     | Portal de Starbucks con 2FA operativo.    |
+| :file_folder:    | twitter-login       | Plantilla de Twitter con autenticación de dos factores. |
+| :file_folder:    | utilities           | Herramientas de conteo de víctimas conectadas. |
+| :file_folder:    | yahoo-login         | Plantilla de Yahoo con 2FA operativo.     |
+| :page_facing_up: | README.md           | Documentación principal del proyecto.     |
+| :page_facing_up: | Tutorial.md         | Tutorial detallado para el uso del script.|
+| :page_facing_up: | evilTrust.sh        | Script principal con mejoras recientes.   |
+
+## :star2: Contribuciones
+
+Las contribuciones son bienvenidas. Si tienes ideas para mejorar este script o encuentras algún problema, siéntete libre de abrir un *pull request* o *issue*.
+
+## :warning: Advertencias
+
+- Uso Responsable: Este script está diseñado para ser utilizado en dispositivos y redes que te pertenecen o para las que tienes permiso de uso. No lo utilices para actividades no autorizadas.
 
 📧 **Contacto**  
 Si tienes preguntas o sugerencias:  
