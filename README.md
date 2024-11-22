@@ -74,7 +74,8 @@ El script es ideal para:
  
 - **Sistema Operativo**: Linux (Kali Linux, Raspberry Pi OS, etc.)  
 - **Hardware**: Tarjeta WiFi compatible con modo monitor y AP.  
-- **Dependencias**:  
+- **Dependencias**: 
+  - `php` 
   - `hostapd`  
   - `dnsmasq`  
   - `iptables`  
