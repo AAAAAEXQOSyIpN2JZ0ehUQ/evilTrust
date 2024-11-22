@@ -44,7 +44,7 @@ Aquí tienes algunos ejemplos de uso del script EvilTrust en acción:
 
 ### 1️⃣ **Configuración de un Rogue AP con portal cautivo falso**  
 Captura de credenciales mediante un entorno controlado.  
-![Youtube Tech_Support404 - Portal Cautivo ](https://www.youtube.com/watch?v=SKeUYUkR0U4)  
+![Youtube Tech_Support404](https://www.youtube.com/watch?v=SKeUYUkR0U4)  
 
 ### 2️⃣ **Simulación de redes WiFi conocidas**  
 Desautenticación y redirección a una red falsa.  
