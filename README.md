@@ -85,7 +85,7 @@ Este script debe ser utilizado únicamente con fines éticos y en entornos donde
 
 📧 **Contacto**  
 Si tienes preguntas o sugerencias:  
-- 👥 Contacta a ![s4v1tar](https://github.com/s4vitar).  
+- 👥 Contacta a ![s4vitar](https://github.com/s4vitar).  
 - 🐾 Gato, adaptaciones personalizadas.  
 
 🌐 **Repositorio oficial**  
