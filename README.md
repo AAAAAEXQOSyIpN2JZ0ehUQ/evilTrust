@@ -48,7 +48,7 @@ Captura de credenciales mediante un entorno controlado.
 
 ### 2️⃣ **Simulación de redes WiFi conocidas**  
 Desautenticación y redirección a una red falsa.  
-![Facebook - s4vitar]https://www.facebook.com/zerosecinfo/videos/eviltrust-herramienta-ofensiva/2445107195742419/)  
+![Facebook - s4vitar](https://www.facebook.com/zerosecinfo/videos/eviltrust-herramienta-ofensiva/2445107195742419/)  
 
 > 🌐 **Nota**: Este script debe ser utilizado únicamente con fines éticos y en entornos donde tengas autorización explícita.
 
