@@ -1,11 +1,11 @@
-![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/Instalador-de-Paqueterias/blob/main/Imagenes/Instalador-de-Paqueterias.png)
+ï»¿![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/Instalador-de-Paqueterias/blob/main/Imagenes/Instalador-de-Paqueterias.png)
 
-# ?????? EvilTrust by s4v1tar - Custom README
+# ğŸ•µï¸â€â™‚ï¸ EvilTrust by s4v1tar - Custom README
 
-?? **Descripción**  
-EvilTrust es un script avanzado de Bash diseñado para convertir un dispositivo Linux en un punto de acceso malicioso (*rogue AP*), ideal para pruebas de penetración y auditorías de seguridad WiFi. Este script permite capturar credenciales, interceptar tráfico, y realizar ataques de ingeniería social mediante la creación de redes falsas y portales cautivos.  
+â„¹ï¸ **DescripciÃ³n**  
+EvilTrust es un script avanzado de Bash diseÃ±ado para convertir un dispositivo Linux en un punto de acceso malicioso (*rogue AP*), ideal para pruebas de penetraciÃ³n y auditorÃ­as de seguridad WiFi. Este script permite capturar credenciales, interceptar trÃ¡fico, y realizar ataques de ingenierÃ­a social mediante la creaciÃ³n de redes falsas y portales cautivos.  
 
-?? **Instalación**  
+ğŸ’» **InstalaciÃ³n**  
 Clona el repositorio y prepara el entorno:  
 ```bash
 git clone https://github.com/s4v1tar/EvilTrust.git
@@ -14,18 +14,18 @@ sudo chmod +x eviltrust.sh
 sudo ./eviltrust.sh
 ```
 
-?? **Modo de Uso**  
+ğŸš€ **Modo de Uso**  
 Al ejecutar el script, selecciona entre los diversos modos de ataque disponibles, como:  
 - Crear un *Rogue AP* con portal cautivo.  
-- Configurar sniffing de tráfico HTTP/HTTPS.  
-- Simular redes WiFi conocidas para engañar dispositivos cercanos.  
+- Configurar sniffing de trÃ¡fico HTTP/HTTPS.  
+- Simular redes WiFi conocidas para engaÃ±ar dispositivos cercanos.  
 
-Ejemplo de ejecución:  
+Ejemplo de ejecuciÃ³n:  
 ```bash
 sudo ./eviltrust.sh
 ```
 
-?? **Requisitos**  
+ğŸ”‘ **Requisitos**  
 - **Sistema Operativo**: Linux (Kali Linux, Raspberry Pi OS, etc.)  
 - **Hardware**: Tarjeta WiFi compatible con modo monitor y AP.  
 - **Dependencias**:  
@@ -33,50 +33,50 @@ sudo ./eviltrust.sh
   - `dnsmasq`  
   - `iptables`  
 
-?? **Notas adicionales**  
+ğŸ“‘ **Notas adicionales**  
 El script es ideal para:  
-- Auditorías de seguridad en redes WiFi.  
-- Simulación de ataques de ingeniería social.  
-- Captura de tráfico en entornos controlados.  
+- AuditorÃ­as de seguridad en redes WiFi.  
+- SimulaciÃ³n de ataques de ingenierÃ­a social.  
+- Captura de trÃ¡fico en entornos controlados.  
 
-?? **Importante**  
-Este script debe ser utilizado únicamente con fines éticos y en entornos donde tengas autorización explícita.  
+âš ï¸ **Importante**  
+Este script debe ser utilizado Ãºnicamente con fines Ã©ticos y en entornos donde tengas autorizaciÃ³n explÃ­cita.  
 
 ---
 
-# ??? Demos y Ejemplos
+# ğŸ› ï¸ Demos y Ejemplos
 
-Aquí tienes algunos ejemplos de uso del script EvilTrust en acción:  
+AquÃ­ tienes algunos ejemplos de uso del script EvilTrust en acciÃ³n:  
 
-### 1?? **Configuración de un Rogue AP con portal cautivo falso**  
+### 1ï¸âƒ£ **ConfiguraciÃ³n de un Rogue AP con portal cautivo falso**  
 Captura de credenciales mediante un entorno controlado.  
 ![Demo 1 - Portal Cautivo](https://your-demo-link.com/demo1.png)  
 
-### 2?? **Sniffing de tráfico HTTP/HTTPS**  
-Interceptación de tráfico para auditorías en tiempo real.  
-![Demo 2 - Sniffing Tráfico](https://your-demo-link.com/demo2.png)  
+### 2ï¸âƒ£ **Sniffing de trÃ¡fico HTTP/HTTPS**  
+InterceptaciÃ³n de trÃ¡fico para auditorÃ­as en tiempo real.  
+![Demo 2 - Sniffing TrÃ¡fico](https://your-demo-link.com/demo2.png)  
 
-### 3?? **Simulación de redes WiFi conocidas**  
-Desautenticación y redirección a una red falsa.  
+### 3ï¸âƒ£ **SimulaciÃ³n de redes WiFi conocidas**  
+DesautenticaciÃ³n y redirecciÃ³n a una red falsa.  
 ![Demo 3 - Redes Simuladas](https://your-demo-link.com/demo3.png)  
 
-> ?? **Nota**: Sustituye los enlaces `https://your-demo-link.com` por URLs reales donde tengas alojadas las capturas o ejemplos.
+> ğŸŒ **Nota**: Sustituye los enlaces `https://your-demo-link.com` por URLs reales donde tengas alojadas las capturas o ejemplos.
 
 ---
 
-?? **Características**  
-- Automatización total para pruebas de seguridad WiFi.  
-- Soporte para múltiples modos de ataque.  
+ğŸŒŸ **CaracterÃ­sticas**  
+- AutomatizaciÃ³n total para pruebas de seguridad WiFi.  
+- Soporte para mÃºltiples modos de ataque.  
 - Herramienta liviana y personalizable.  
 
-??? **Colaboradores**  
-- ?? s4v1tar  
-- ?? Gato  
+ğŸ› ï¸ **Colaboradores**  
+- ğŸ‘¤ s4v1tar  
+- ğŸ¾ Gato  
 
-?? **Contacto**  
+ğŸ“§ **Contacto**  
 Si tienes preguntas o sugerencias:  
-- ?? Contacta a [s4v1tar](https://github.com/s4v1tar).  
-- ?? Gato, adaptaciones personalizadas.  
+- ğŸ‘¥ Contacta a [s4v1tar](https://github.com/s4v1tar).  
+- ğŸ¾ Gato, adaptaciones personalizadas.  
 
-?? **Repositorio oficial**  
+ğŸŒ **Repositorio oficial**  
 [EvilTrust GitHub](https://github.com/s4v1tar/EvilTrust)
