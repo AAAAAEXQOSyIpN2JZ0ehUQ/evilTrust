@@ -66,17 +66,17 @@ sudo su
 
 Aquí tienes algunos ejemplos de uso del script EvilTrust en acción:  
 
-### 1️⃣ **Configuración de un Rogue AP con portal cautivo falso**  
+### 1️⃣ **Tutorial detallado para el uso del script.
+Captura de credenciales mediante un entorno controlado.  
+![Github - s4vitar](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/evilTrust/blob/master/Tutorial.md/)  
+
+### 2️⃣ **Configuración de un Rogue AP con portal cautivo falso**  
 Captura de credenciales mediante un entorno controlado.  
 ![Youtube Tech_Support404](https://www.youtube.com/watch?v=SKeUYUkR0U4)  
 
-### 2️⃣ **Simulación de redes WiFi conocidas**  
-Desautenticación y redirección a una red falsa.  
-![Facebook - s4vitar](https://www.facebook.com/zerosecinfo/videos/eviltrust-herramienta-ofensiva/2445107195742419/)  
-
-### 3️⃣ Tutorial detallado para el uso del script.
+### 3️⃣ **Simulación de redes WiFi conocidas en vivo** 
 Captura de credenciales mediante un entorno controlado.  
-![Github - s4vitar](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/evilTrust/blob/master/Tutorial.md/)  
+![Facebook - s4vitar](https://www.facebook.com/zerosecinfo/videos/eviltrust-herramienta-ofensiva/2445107195742419/)  
 
 > 🌐 **Nota**: Este script debe ser utilizado únicamente con fines éticos y en entornos donde tengas autorización explícita.
 
