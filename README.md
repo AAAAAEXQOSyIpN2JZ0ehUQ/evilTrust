@@ -25,7 +25,7 @@ sudo chmod +x evilTrust.sh
 ## :key: Acceso Directo
 ```bash
 cd 
-sudo echo "cd && cd Desktop/EvilTrust && sudo ./eviltrust.sh -m terminal" > eviltrust
+sudo echo "cd && cd Desktop/evilTrust && sudo ./eviltrust.sh -m terminal" > eviltrust
 sudo chmod +x eviltrust
 sudo rm -rf /usr/local/bin/eviltrust
 sudo mv eviltrust /usr/local/bin/
