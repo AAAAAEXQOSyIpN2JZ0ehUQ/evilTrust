@@ -16,13 +16,28 @@ IMPORTANTE: No es necesario contar con una conexión cableada, por lo que es pos
 ## :computer: Instalación
 ```bash
 cd
-sudo apt-get install -y php
-sudo apt-get install -y hostapd
-sudo apt-get install -y dnsmasq
 cd Desktop
 sudo git clone https://github.com/s4v1tar/EvilTrust.git
 cd EvilTrust
 sudo chmod +x eviltrust.sh
+```
+
+## :key: Acceso Directo
+```bash
+cd 
+sudo echo "cd && cd Desktop/EvilTrust && sudo ./eviltrust.sh -m terminal" > eviltrust
+sudo chmod +x eviltrust
+sudo rm -rf /usr/local/bin/eviltrust
+sudo mv eviltrust /usr/local/bin/
+cd
+```
+
+## :package: Paquete
+```bash
+sudo apt-get -y update
+sudo apt-get install -y php
+sudo apt-get install -y dnsmasq
+sudo apt-get install -y hostapd
 ```
 
 ## :rocket: Modo de Uso
