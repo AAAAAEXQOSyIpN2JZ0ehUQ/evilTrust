@@ -16,6 +16,7 @@ IMPORTANTE: No es necesario contar con una conexión cableada, por lo que es pos
 ## :computer: Instalación
 ```bash
 cd
+sudo apt-get install -y php
 sudo apt-get install -y hostapd
 sudo apt-get install -y dnsmasq
 cd Desktop
