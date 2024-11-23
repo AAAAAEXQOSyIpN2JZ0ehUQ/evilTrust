@@ -17,7 +17,7 @@ IMPORTANTE: No es necesario contar con una conexión cableada, por lo que es pos
 ```bash
 cd
 cd Desktop
-sudo git clone https://github.com/s4v1tar/EvilTrust.git
+sudo git clone https://github.com/s4vitar/evilTrust.git
 cd EvilTrust
 sudo chmod +x eviltrust.sh
 ```
