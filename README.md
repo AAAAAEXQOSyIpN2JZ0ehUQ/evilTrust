@@ -18,8 +18,8 @@ IMPORTANTE: No es necesario contar con una conexión cableada, por lo que es pos
 cd
 cd Desktop
 sudo git clone https://github.com/s4vitar/evilTrust.git
-cd EvilTrust
-sudo chmod +x eviltrust.sh
+cd evilTrust
+sudo chmod +x evilTrust.sh
 ```
 
 ## :key: Acceso Directo
