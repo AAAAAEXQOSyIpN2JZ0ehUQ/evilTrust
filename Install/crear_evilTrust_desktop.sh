@@ -7,7 +7,7 @@ APP_NAME="evilTrust"
 EXEC_PATH="/usr/share/kali-menu/exec-in-shell \"evilTrust\""
 
 # Ruta del ícono
-ICON_PATH="kali-wifite"
+ICON_PATH="Desktop/evilTrust/images/evil.png"
 
 # Rutas de los archivos .desktop
 APPLICATIONS_DESKTOP_FILE="/usr/share/applications/kali-evilTrust.desktop"
