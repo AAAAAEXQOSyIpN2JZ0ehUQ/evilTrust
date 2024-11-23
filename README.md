@@ -40,6 +40,11 @@ sudo apt-get install -y dnsmasq
 sudo apt-get install -y hostapd
 ```
 
+## :computer: Crear Desktop
+```bash
+sudo wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/evilTrust/refs/heads/master/Install/crear_evilTrust_desktop.sh -O - | sudo bash && sudo rm -rf wget-log*
+```
+
 ## :rocket: Modo de Uso
   
 Al ejecutar el script, selecciona entre los diversos modos de ataque disponibles, como:  
