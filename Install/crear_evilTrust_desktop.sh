@@ -16,7 +16,7 @@ KALI_MENU_DESKTOP_FILE="/usr/share/kali-menu/applications/kali-evilTrust.desktop
 # Contenido del archivo .desktop
 DESKTOP_ENTRY="[Desktop Entry]
 Name=$APP_NAME
-Comment=Python script to automate wireless auditing using aircrack-ng tools
+Comment=Comment=Utilidad para simular puntos de acceso WiFi maliciosos en pruebas de seguridad
 Encoding=UTF-8
 Exec=$EXEC_PATH
 Icon=$ICON_PATH
